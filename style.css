@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 60px;
+  margin-left: 3%;
+}
+
+/* Block Cart-Bookings */
+.flexline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-right1 {
+  margin: 10px;
+  font-weight: bold;
+}
+
+#header-right1:hover {
+  cursor: pointer;
+}
+
+#header-right2 {
+  margin: 10px 20px;
+  font-weight: bold;
+}
+
+#header-right2:hover {
+  cursor: pointer;
+}
+
+#title {
+  color: cadetblue;
+  font-size: 140%;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#title:hover {
+  cursor: pointer;
+}
+
+#container {
+  background-image: url("./images/background.jpg");
+  background-size: 100%;
+  background-repeat: unset;
+  height: 100vh;
+  width: 100vw;
+}
+
+#explore {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+#compare {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  margin: 70px;
+}
+
+#blocks {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 750px;
+}
+
+#search:hover {
+  background-color: rgb(70, 117, 118);
+  cursor: pointer;
+}
+
+#searchblock {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#resultblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#train {
+  height: 100px;
+  width: 100px;
+}
+
+#loupe {
+  height: 100px;
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+#inputdeparture {
+  padding-left: 15px;
+}
+
+#inputarrival {
+  padding-left: 15px;
+}
+
+.inputsearch {
+  border: 0cap;
+
+  border-radius: 7px;
+  height: 40px;
+  width: 260px;
+}
+
+#calendarbutton {
+  padding-left: 15px;
+}
+
+#search {
+  border: 0cap;
+  color: white;
+  background-color: cadetblue;
+  margin-top: 100px;
+  border-radius: 7px;
+  height: 40px;
+  width: 260px;
+}
+
+#book {
+  border-radius: 50%;
+  border-color: cadetblue;
+}
+
+#trait {
+  height: 2px;
+  width: 75%;
+  background-color: cadetblue;
+}
+
+.whitesmoke {
+  background-color: whitesmoke;
+}
+.white {
+  background-color: white;
+}
