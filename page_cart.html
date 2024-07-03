@@ -11,10 +11,10 @@
 
 <body>
   <header>
-    <a url="./index.html" id="title">Tickethack</a>
+    <a href="./index.html" id="title">Tickethack</a>
     <div class="flexline">
-      <div id="header-right1">Cart</div>
-      <div id="header-right2">Bookings</div>
+      <a href="./page_cart.html" id="header-right1">Cart</a>
+      <a href="./page_booking.html" id="header-right2">Bookings</a>
     </div>
   </header>
   <div id="container2">
@@ -28,14 +28,23 @@
         <p>Why not plan a trip ?</p>
       </div>
       <div class="item">
-        <div id="mycart2">
-          <p class="totalprice">Total: 103€</p>
-          <p id="Total"></p>
-          <button id="purchase">Purchase</button>
+        <div class="flexline">
+          <p class="cart_departure">Paris</p>
+          <p class="cart_flex_left">></p>
+          <p class="cart_arrival">Lyon</p>
         </div>
+        <p class="cart_hour">20:09</p>
+        <p class="cart_price">103€</p>
+        <button class="cart_delete">X</button>
+      </div>
+      <div id="mycart2">
+        <p class="totalprice">Total: 103€</p>
+        <p id="Total"></p>
+        <button id="purchase">Purchase</button>
       </div>
     </div>
-    <script src="./scripts/script_cart.js"></script>
+  </div>
+  <script src="./scripts/script_cart.js"></script>
 </body>
 
 </html>
