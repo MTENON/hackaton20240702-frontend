@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-  </head>
 
-  <body>
-    <header>
-      <a url="./index.html" id="title">Tickethack</a>
-      <div class="flexline">
-        <div id="header-right1">Cart</div>
-        <div id="header-right2">Bookings</div>
-      </div>
-    </header>
-    <div id="container">
-      <p id="explore">Explore the world effortlessly by train !</p>
-      <p id="compare">
-        Compare, book and enjoy cheap prices for train tickets: your journey
-        starts on Tickethack.
-      </p>
-      <div class="flexline" id="blocks">
-        <div id="searchblock" class="flexcol">
-            <div class="flexcol">
-            <input id="inputdeparture" placeholder="Departure" class="inputsearch whitesmoke"></input>
-            <input id="inputarrival" placeholder="Arrival" class="inputsearch whitesmoke"></input>
-            </div>
-            <div class="inputsearch white"></div>
-            <input type="date" id="calendarbutton" class="inputsearch whitesmoke"></input>
-            <button id="search">Search</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+</head>
 
-        </div>
-        <div id="resultblock">
-            <img id="train" src="./images/train.png">
-            <img id="loupe" class="hidden" src="./images/notfound.png">
-            <div id="trait"></div>
-            <p id="book">It's time to book your future trip.</p>
-        </div>
+<body>
+  <header>
+    <a url="./index.html" id="title">Tickethack</a>
+    <div class="flexline">
+      <div id="header-right1">Cart</div>
+      <div id="header-right2">Bookings</div>
     </div>
-</div>
+  </header>
+  <div id="container">
+    <p id="explore">Explore the world effortlessly by train !</p>
+    <p id="compare">
+      Compare, book and enjoy cheap prices for train tickets: your journey
+      starts on Tickethack.
+    </p>
+    <div class="flexline" id="blocks">
+      <div id="searchblock" class="flexcol">
+        <div class="flexcol">
+          <input id="inputdeparture" placeholder="Departure" class="inputsearch whitesmoke"></input>
+          <input id="inputarrival" placeholder="Arrival" class="inputsearch whitesmoke"></input>
+        </div>
+        <div class="inputsearch white"></div>
+        <input type="date" id="calendarbutton" class="inputsearch whitesmoke"></input>
+        <button id="search">Search</button>
 
-    <script src="./script.js"></script>
-  </body>
+      </div>
+      <div id="resultblock">
+        <img id="train" src="./images/train.png">
+        <div id="trait"></div>
+        <p id="book">It's time to book your future trip.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./fetch.js"></script>
+</body>
+
 </html>
