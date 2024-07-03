@@ -30,6 +30,7 @@ header {
 }
 
 #header-right1 {
+  text-decoration: none;
   margin: 10px;
   font-weight: bold;
 }
@@ -39,6 +40,7 @@ header {
 }
 
 #header-right2 {
+  text-decoration: none;
   margin: 10px 20px;
   font-weight: bold;
 }
@@ -48,6 +50,7 @@ header {
 }
 
 #title {
+  text-decoration: none;
   color: cadetblue;
   font-size: 140%;
   font-weight: bold;
@@ -135,12 +138,10 @@ header {
 }
 
 #train {
-  height: 100px;
-  width: 100px;
-}
-
-#loupe {
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 0 100px;
+  height: 90px;
   width: 100px;
 }
 
@@ -179,11 +180,18 @@ header {
 }
 
 #book {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
   border-radius: 50%;
   border-color: cadetblue;
 }
 
 #trait {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 40px;
   height: 2px;
   width: 75%;
   background-color: cadetblue;
@@ -284,6 +292,16 @@ header {
   width: 30px;
 }
 
+.cart_delete:hover {
+  cursor: pointer;
+  background-color: rgb(70, 117, 118);
+}
+
+#purchase:hover {
+  cursor: pointer;
+  background-color: rgb(70, 117, 118);
+}
+
 /* Page 3 */
 
 #mybook {
@@ -304,15 +322,15 @@ header {
 .item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   border: 0cap;
   color: black;
   background-color: rgb(252, 247, 239);
   border-radius: 7px;
   height: 85px;
   width: 85%;
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
 
 .book_flex_left {
