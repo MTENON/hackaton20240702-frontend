@@ -177,3 +177,137 @@ header {
 .white {
   background-color: white;
 }
+
+/* Page 2 */
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+}
+
+#mycart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 200px;
+  width: 1000px;
+  border-radius: 10px;
+}
+
+#notickets {
+  display: block;
+  text-align: center;
+}
+
+#mycart2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: midnightblue;
+  height: 100px;
+  width: 1000px;
+  border-radius: 0 0 10px 10px;
+}
+
+#my {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.totalprice {
+  color: white;
+  margin-left: 50px;
+}
+
+#purchase {
+  margin-right: 50px;
+  border: 0cap;
+  color: white;
+  background-color: cadetblue;
+  border-radius: 7px;
+  height: 40px;
+  width: 90px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0cap;
+  color: black;
+  background-color: rgb(252, 247, 239);
+  border-radius: 7px;
+  height: 100px;
+  width: 85%;
+  margin: 0 10px 10px;
+  padding-left: 10px;
+}
+
+.cart_flex_left {
+  margin: 0 10px;
+}
+
+.cart_delete {
+  margin-right: 10px;
+  border: 0cap;
+  color: white;
+  background-color: cadetblue;
+  border-radius: 7px;
+  height: 30px;
+  width: 30px;
+}
+
+/* Page 3 */
+
+#mybook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 250px;
+  width: 1000px;
+  border-radius: 10px;
+}
+
+#nobooks {
+  display: block;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0cap;
+  color: black;
+  background-color: rgb(252, 247, 239);
+  border-radius: 7px;
+  height: 85px;
+  width: 85%;
+  padding: 0 30px;
+}
+
+.book_flex_left {
+  margin: 0 10px;
+}
+
+#trait_3 {
+  height: 2px;
+  width: 20%;
+  background-color: cadetblue;
+}
+
+#enjoy {
+  display: flex;
+  color: cadetblue;
+  margin: 15px;
+}
