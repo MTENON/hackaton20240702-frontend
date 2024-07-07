@@ -221,9 +221,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: white;
-  height: 400px;
+  height: auto;
+  min-height: 200px;
+  max-height: 400px;
   width: 1000px;
   border-radius: 10px;
   overflow-y: auto;
@@ -273,11 +275,14 @@ header {
 }
 
 #my {
-  overflow-y: auto;
+  width: 80%;
   font-size: 20px;
   color: black;
   text-align: center;
   margin: 20px;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .cart_price_container {

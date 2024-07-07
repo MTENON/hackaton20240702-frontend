@@ -31,6 +31,10 @@ function addListeners() {
             }
 
             this.parentNode.remove();
+            if (document.querySelectorAll('.cartDelete').length === 0) {
+                document.querySelector('#notickets').style = "display: block";
+                document.querySelector('#mycart2').style = 'display: none'
+            }
 
             fetch(`${link}/myCart/`, {
                 method: "DELETE",
@@ -53,7 +57,7 @@ function getCart() {
 
             console.log(data);
 
-            document.querySelector('.totalprice').textContent = `${data.price}€`
+            document.querySelector('.totalprice').textContent = `Total: ${data.price}€`
 
             //Faire disparaitre le texte qui sert à rien
             if (data.result.length === 0) {

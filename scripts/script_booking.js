@@ -25,9 +25,9 @@ function getBook() {
                         <p class="cart_flex_left">></p>
                         <p class="cart_arrival">${data.data[i].arrival}</p>
                     </div>
-                    <p class="cart_hour">Y</p>
+                    <p class="cart_hour">${data.hour[i]}</p>
                     <p class="cart_price">${data.data[i].price}€</p>
-                    <p class="cart_hour_left">Departure in X hours</p>
+                    <p class="cart_hour_left">Departure in ${data.leftHours[i]} hours</p>
                 `;
       }
     });
