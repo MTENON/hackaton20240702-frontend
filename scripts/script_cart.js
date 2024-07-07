@@ -1,5 +1,5 @@
 // var moment = require('moment');
-const link = "hackaton20240702-backend.vercel.app";
+const link = "https://hackaton20240702-backend.vercel.app";
 
 console.log('Script_cart loaded');
 
