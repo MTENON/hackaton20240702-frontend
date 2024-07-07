@@ -1,5 +1,5 @@
 // var moment = require('moment');
-const link = "http://localhost:3000";
+const link = "hackaton20240702-backend.vercel.app";
 
 console.log("Script_booking loaded");
 
