@@ -271,6 +271,11 @@ header {
   margin: 20px;
 }
 
+.cart_price_container {
+  display: flex;
+  flex-direction: row;
+}
+
 .totalprice {
   color: white;
   margin-left: 50px;
@@ -305,7 +310,7 @@ header {
   margin: 0 10px;
 }
 
-.cart_delete {
+.cartDelete {
   margin-right: 10px;
   border: 0cap;
   color: white;
@@ -315,7 +320,7 @@ header {
   width: 30px;
 }
 
-.cart_delete:hover {
+.cartDelete:hover {
   cursor: pointer;
   background-color: rgb(70, 117, 118);
 }
