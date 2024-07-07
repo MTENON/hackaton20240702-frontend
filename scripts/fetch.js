@@ -6,9 +6,9 @@ console.log('Script loaded');
 //FUNCTIONS -------------------------
 //Cette fonction affiche la loupe si la recherche est échouée
 function failedSearch() {
-    document.querySelector('#train').style = 'display: block';
-    document.querySelector('#trait').style = 'display: block';
-    document.querySelector('#book').style = 'display: block';
+    document.querySelector('#train').style = '';
+    document.querySelector('#trait').style = '';
+    document.querySelector('#book').style = '';
     document.querySelector('#train').src = "./images/notfound.png";
     document.querySelector('#book').textContent = "No trip found.";
 }
@@ -33,7 +33,7 @@ function clickSearch() {
             fetch(`${link}/myCart/search`, { //Le fetch renvoie un TRIP
                 method: "POST",
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(query);
+                body: JSON.stringify(query)
             }).then(response => response.json())
                 .then((data) => {
                     //Verifier que les données sont viables
@@ -98,7 +98,7 @@ function bookButton() {
                     console.log(data)
                 }))
             //Aller dans la page page_cart
-            // location.assign('./page_cart.html')
+            location.assign('./page_cart.html')
 
         });
     }
